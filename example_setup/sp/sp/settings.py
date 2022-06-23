@@ -140,7 +140,7 @@ APPEND_SLASH = False
 LOGIN_URL = '/saml2/login/'
 LOGOUT_URL = '/logout/'
 LOGIN_REDIRECT_URL = ''
-LOGOUT_REDIRECT_URL = ''
+LOGOUT_REDIRECT_URL = '' 
 
 SAML_CONFIG = {
     'debug': DEBUG,
